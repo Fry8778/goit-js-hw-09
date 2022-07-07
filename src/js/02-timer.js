@@ -9,9 +9,6 @@ const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
 const inputEl = document.querySelector('#datetime-picker');
 
-
-
-
 flatpickr('#datetime-picker', {
     enableTime: true,
     time_24hr: true,
